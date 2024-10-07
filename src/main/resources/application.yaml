@@ -1,0 +1,18 @@
+spring:
+  config:
+    import: "kubernetes:"
+
+  cloud:
+    kubernetes:
+      client:
+        namespace: default
+
+      secrets:
+        enable-api: true
+        sources:
+          - labels:
+              load: "true"
+        use-name-as-prefix: true
+
+  main:
+    cloud-platform: kubernetes
