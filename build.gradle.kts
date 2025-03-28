@@ -1,7 +1,7 @@
 plugins {
 	java
-	id("org.springframework.boot") version "3.3.4"
-	id("io.spring.dependency-management") version "1.1.6"
+	id("org.springframework.boot") version "3.4.4"
+	id("io.spring.dependency-management") version "1.1.7"
 }
 
 group = "io.jaconi"
@@ -19,7 +19,7 @@ repositories {
 
 dependencyManagement {
 	imports {
-		mavenBom("org.springframework.cloud:spring-cloud-dependencies:2023.0.3")
+		mavenBom("org.springframework.cloud:spring-cloud-dependencies:2024.0.1")
 	}
 }
 
