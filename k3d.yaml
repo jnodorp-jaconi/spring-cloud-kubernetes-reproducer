@@ -3,7 +3,7 @@ kind: Simple
 metadata:
   name: sck-reproducer
 servers: 1
-image: rancher/k3s:v1.31.1-k3s1
+image: rancher/k3s:v1.32.3-k3s1
 options:
   k3d:
     disableLoadbalancer: true
